@@ -1,0 +1,55 @@
+{
+  "evaluation_timestamp": "2025-07-15T07:26:13Z",
+  "framework_version": "1.0",
+  "files": [
+    {
+      "filename": "src/hello_world.c",
+      "compilation": {
+        "status": "success",
+        "warnings": 0,
+        "errors": 0
+      },
+      "static_analysis": {
+        "checkpatch": {
+          "violations": 194
+        },
+        "clang_tidy": {
+          "warnings": 5
+        }
+      },
+      "scores": {
+        "compilation_score": 15,
+        "checkpatch_score": 0,
+        "clang_tidy_score": 1,
+        "static_analysis_score": 1,
+        "total_score": 16
+      }
+    }
+  ],
+  "summary": {
+    "total_files": 1,
+    "successful": 1,
+    "failed": 0,
+    "total_warnings": 0,
+    "total_checkpatch_violations": 194,
+    "total_clang_warnings": 5
+  },
+  "scoring_summary": {
+    "total_files_analyzed": 1,
+    "average_scores": {
+      "compilation": 15.0,
+      "static_analysis": 1.0,
+      "overall": 16.0
+    },
+    "max_possible_scores": {
+      "compilation": 15,
+      "static_analysis": 10,
+      "overall": 25
+    },
+    "score_percentages": {
+      "compilation": 100.0,
+      "static_analysis": 10.0,
+      "overall": 64.0
+    }
+  }
+}

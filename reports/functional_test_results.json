@@ -1,0 +1,47 @@
+{
+  "module_path": "src/hello_world.ko",
+  "device_name": "hello_world",
+  "tests": {
+    "module_load": {
+      "status": "FAIL",
+      "message": "insmod failed: insmod: ERROR: could not insert module src/hello_world.ko: Invalid parameters\n",
+      "score": 0
+    },
+    "device_node_creation": {
+      "status": "FAIL",
+      "message": "Device node /dev/hello_world not created",
+      "score": 0
+    },
+    "device_open_close": {
+      "status": "FAIL",
+      "message": "Device /dev/hello_world not found",
+      "score": 0
+    },
+    "device_read": {
+      "status": "FAIL",
+      "message": "Read failed: [Errno 2] No such file or directory: '/dev/hello_world'",
+      "score": 0
+    },
+    "device_write": {
+      "status": "PASS",
+      "message": "Wrote 26 bytes successfully",
+      "score": 2
+    },
+    "read_write_consistency": {
+      "status": "PASS",
+      "message": "Write-read consistency verified",
+      "score": 3
+    },
+    "module_unload": {
+      "status": "FAIL",
+      "message": "rmmod failed: rmmod: ERROR: Module hello_world is not currently loaded\n",
+      "score": 0
+    }
+  },
+  "summary": {
+    "total_tests": 7,
+    "passed": 2,
+    "failed": 5,
+    "score": 5
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "evaluation_timestamp": "2025-07-15T07:26:13Z",
+  "framework_version": "1.0",
+  "files": [
+    {
+      "filename": "src/hello_world.c",
+      "compilation": {
+        "status": "success",
+        "warnings": 0,
+        "errors": 0
+      },
+      "static_analysis": {
+        "checkpatch": {"violations": 194},
+        "clang_tidy": {"warnings": 5}
+      }
+    }
+
+  ],
+  "summary": {
+    "total_files": 1,
+    "successful": 1,
+    "failed": 0,
+    "total_warnings": 0,
+    "total_checkpatch_violations": 194,
+    "total_clang_warnings": 5
+  }
+}
