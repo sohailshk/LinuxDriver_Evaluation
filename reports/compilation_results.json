@@ -1,5 +1,5 @@
 {
-  "evaluation_timestamp": "2025-07-15T07:26:13Z",
+  "evaluation_timestamp": "2025-07-17T13:12:07Z",
   "framework_version": "1.0",
   "files": [
     {
@@ -10,8 +10,8 @@
         "errors": 0
       },
       "static_analysis": {
-        "checkpatch": {"violations": 194},
-        "clang_tidy": {"warnings": 5}
+        "checkpatch": {"violations": 3},
+        "clang_tidy": {"warnings": 3}
       }
     }
 
@@ -21,7 +21,7 @@
     "successful": 1,
     "failed": 0,
     "total_warnings": 0,
-    "total_checkpatch_violations": 194,
-    "total_clang_warnings": 5
+    "total_checkpatch_violations": 3,
+    "total_clang_warnings": 3
   }
 }

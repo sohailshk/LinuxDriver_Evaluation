@@ -1,1 +1,58 @@
+# .gitignore for Linux Device Driver Evaluation Framework
+
+# Compiled kernel modules
+*.ko
+*.o
+*.mod.c
+*.mod
+*.symvers
+*.order
+
+# Build artifacts
+.tmp_versions/
+.*.cmd
+Module.symvers
+modules.order
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environment
 venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Reports with timestamps (keep templates)
+reports/evaluation_report_*.md
+reports/evaluation_report_*.html
+reports/evaluation_report_*.json
+reports/compilation_results.json
+reports/compilation_results_analyzed.json
+reports/functional_test_results.json
+
+# Keep sample reports for documentation
+!reports/sample_*
