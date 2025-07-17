@@ -142,30 +142,11 @@ Our framework successfully evaluated a sample device driver with the following i
 - Clang-tidy warnings: 3
 - Overall score: 53.7/100 (Grade: F, but significant improvement)
 - Functional tests: 5/7 passed (71.4% success rate)
-
-## 📋 System Requirements
-
-### Minimum Requirements
-- **OS**: Linux (Ubuntu 18.04+, WSL2 supported)
-- **Memory**: 4GB RAM
-- **Storage**: 2GB free space
-- **Python**: 3.8 or higher
-- **GCC**: 7.0 or higher
-
+- 
 ### Recommended Tools
 - **Static Analysis**: clang-tidy, checkpatch.pl
 - **Kernel Headers**: linux-headers-$(uname -r)
 - **Container Runtime**: Docker (for isolated builds)
-
-## 📚 Documentation
-
-| Document | Description |
-|----------|-------------|
-| [📐 Architecture](docs/architecture.md) | System design, components, and data flow |
-| [📏 Rubrics](docs/rubrics.md) | Detailed evaluation criteria and scoring matrix |
-| [📖 User Guide](docs/user_guide.md) | Complete usage instructions and examples |
-| [🎬 Demo Script](docs/demo_script.md) | Presentation guide and video script |
-| [🐙 GitHub Strategy](docs/github_strategy.md) | Repository management and commit guidelines |
 
 ## 🎯 Use Cases
 
@@ -183,16 +164,6 @@ Our framework successfully evaluated a sample device driver with the following i
 - Quality assurance for AI-generated system code
 - Code review automation for kernel development
 - Compliance verification against Linux kernel standards
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 🐛 Troubleshooting
 
@@ -218,20 +189,5 @@ sudo apt install build-essential clang-tools-extra
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Linux kernel development community for coding standards
-- Static analysis tools: checkpatch.pl and clang-tidy
-- Python testing frameworks and report generation libraries
-
-## 📧 Contact
-
-- **Author**: [Your Name]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Project Link**: [https://github.com/yourusername/LinuxDriver_Evaluation](https://github.com/yourusername/LinuxDriver_Evaluation)
-
----
 
 **⭐ If you find this project useful, please give it a star!**
